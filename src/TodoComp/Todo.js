@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import swal from 'sweetalert';
 import "./Todo.css";
 
 // get the localStorage data back
@@ -24,7 +25,7 @@ const Todo = () => {
   const addItem = () => {
     if (!inputdata) {
 
-      alert("plz fill the data");
+      swal("Please Fill the Data");
 
 
     } else if (inputdata && toggleButton) {
