@@ -1,8 +1,10 @@
-import Todo from "./TodoComp/Todo";
+// import Todo from "./TodoComp/Todo";
+import Hide from "./HideAndShow/Hide";
 function App() {
   return (
     <div className="App">
-     <Todo />
+     {/* <Todo /> */}
+     <Hide/>
     </div>
   );
 }
