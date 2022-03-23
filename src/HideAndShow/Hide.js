@@ -16,10 +16,6 @@ function Hide() {
 
 export default Hide;
 
-
-// https://github.com/charanpy/TS-todo
-
-
 // Regular functions VS Arrow functions
 // Arguments objects are not available in arrow function
 // Regular functions Created using declarations or Expressions are "Constructible" and "Callable"
